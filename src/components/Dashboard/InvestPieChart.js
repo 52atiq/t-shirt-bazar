@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pie, PieChart, ResponsiveContainer } from 'recharts';
 
-const Review = () => {
+const InvestPieChart = () => {
     
 const data01 = [
     { name: 'Group A', value: 400 },
@@ -32,4 +32,7 @@ const data01 = [
     );
 };
 
-export default Review;
+export default InvestPieChart;
+
+
+

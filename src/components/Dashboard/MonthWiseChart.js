@@ -1,7 +1,7 @@
 import React from 'react';
 import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
-const About = () => {
+const  MonthWiseChart= () => {
     <h2> Month Wise Sell  </h2>
   const data =  [
         {
@@ -59,4 +59,8 @@ const About = () => {
     );
 };
 
-export default About;
+export default MonthWiseChart;
+
+
+
+

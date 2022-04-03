@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
-const Blog = () => {
+const InvestBarChart = () => {
    
 const data = [
     {
@@ -73,4 +73,6 @@ const data = [
     );
 };
 
-export default Blog;
+export default InvestBarChart;
+
+
