@@ -6,7 +6,7 @@ const Navbar = () => {
 
         <div className='mx-24 flex  justify-between mt-2'>
             <div>
-                <h2 className='text-xl'>Tshirt Bazar </h2>
+                <h2 className='text-xl text-amber-900 font-semibold '>Tshirt Bazar </h2>
                
             </div>
           <div className='flex gap-16 text-xl text-green-500'>

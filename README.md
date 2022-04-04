@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+  Tshirt Bazar
+  
+  Live Link:  https://tshirt-bazar.netlify.app/
+
+  <div>
+   <ol>
+   <li>This project about tshirt sell created by react some react features such as useSate, custom Hook </li>
+	<li>Used this project Tailwind css for design</li>
+	<li> Added chart used recharts</li>
+	<li> Added a Blog page </li>
+   </ol>
+  </div>
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
