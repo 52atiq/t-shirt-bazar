@@ -6,7 +6,8 @@ const Navbar = () => {
 
         <div className='mx-24 flex  justify-between mt-2'>
             <div>
-                <h2 className='text-xl'>Logo </h2>
+                <h2 className='text-xl'>Tshirt Bazar </h2>
+               
             </div>
           <div className='flex gap-16 text-xl text-green-500'>
           <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/'> Home </NavLink>

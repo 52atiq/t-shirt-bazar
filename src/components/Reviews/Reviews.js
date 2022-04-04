@@ -2,7 +2,7 @@ import React from 'react';
 import useReviews from '../../hooks/useReviews';
 
 
-const Reviews = (props) => {
+const Reviews = () => {
     const[reviews, setReviews] = useReviews();
 
     return (
@@ -14,7 +14,7 @@ const Reviews = (props) => {
                 <img className='mx-auto w-36 h-36 rounded-full mt-2' src={review.picture} alt="" />
                 <h2 className='text-xl  mx-auto'>{review.name}</h2>
                 <p className='mx-4 text-justify'>{review.comment}</p>
-                <p className='mx-4'>{review.rating}</p>
+                <p className='mx-4 text-yellow-400 mb-1'>{review.rating} <span>(5)</span></p>
               </div>)
             }
         </div>

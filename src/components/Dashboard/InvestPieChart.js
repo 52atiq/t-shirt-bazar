@@ -4,23 +4,24 @@ import { Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 const InvestPieChart = () => {
     
 const data01 = [
-    { name: 'Group A', value: 400 },
-    { name: 'Group B', value: 300 },
-    { name: 'Group C', value: 300 },
-    { name: 'Group D', value: 200 },
+    { name: 'Service A', value: 400 },
+    { name: 'Service B', value: 300 },
+    { name: 'Service C', value: 300 },
+    { name: 'Service D', value: 200 },
   ];
   const data02 = [
-    { name: 'A1', value: 100 },
-    { name: 'A2', value: 300 },
-    { name: 'B1', value: 100 },
-    { name: 'B2', value: 80 },
-    { name: 'B3', value: 40 },
-    { name: 'B4', value: 30 },
-    { name: 'B5', value: 50 },
-    { name: 'C1', value: 100 },
-    { name: 'C2', value: 200 },
-    { name: 'D1', value: 150 },
-    { name: 'D2', value: 50 },
+    { name: 'Jan', value: 100 },
+    { name: 'Feb', value: 300 },
+    { name: 'Mar', value: 100 },
+    { name: 'Apr', value: 80 },
+    { name: 'May', value: 40 },
+    { name: 'Jun', value: 30 },
+    { name: 'Jul', value: 50 },
+    { name: 'Aug', value: 100 },
+    { name: 'Sep', value: 200 },
+    { name: 'Oct', value: 150 },
+    { name: 'Nov', value: 50 },
+    { name: 'Dec', value: 250 },
   ];
     return (
        
