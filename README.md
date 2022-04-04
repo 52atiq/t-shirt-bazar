@@ -1,14 +1,14 @@
   Tshirt Bazar
-  
+
   Live Link:  https://tshirt-bazar.netlify.app/
 
   <div>
-   <ol>
+   <ul>
    <li>This project about tshirt sell created by react some react features such as useSate, custom Hook </li>
 	<li>Used this project Tailwind css for design</li>
 	<li> Added chart used recharts</li>
 	<li> Added a Blog page </li>
-   </ol>
+   </ul>
   </div>
 
 <!-- # Getting Started with Create React App
