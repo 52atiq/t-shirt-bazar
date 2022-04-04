@@ -10,7 +10,7 @@ const Navbar = () => {
             </div>
           <div className='flex gap-16 text-xl text-green-500'>
           <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/'> Home </NavLink>
-            <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/review'> Review </NavLink>
+            <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/review'> Reviews </NavLink>
             <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/dashboard'> Dashboard </NavLink>
             <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/blog'> Blog </NavLink>
             <NavLink className={({isActive}) => (isActive ? 'text-red-600': 'text-green-500')} to='/about'> About </NavLink>

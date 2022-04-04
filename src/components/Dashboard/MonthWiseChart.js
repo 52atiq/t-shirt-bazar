@@ -2,7 +2,7 @@ import React from 'react';
 import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const  MonthWiseChart= () => {
-    <h2> Month Wise Sell  </h2>
+    
   const data =  [
         {
             "month": "Mar",
@@ -44,8 +44,9 @@ const  MonthWiseChart= () => {
     
     return (
       
-     <div>
-           <LineChart width={400} height={400} data={data}>
+     <div className='mb-10 '>
+         <h2 className='flex justify-center text-blue-600 text-xl'> Month Wise Sell  </h2>
+           <LineChart  width={400} height={300} data={data}>
 
 <Line  type="monotone" dataKey='revenue' > </Line>
 <Line  type="monotone" dataKey='investment' > </Line>

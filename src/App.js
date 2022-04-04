@@ -6,7 +6,8 @@ import Blog from './components/Blog/Blog';
 import Dashboard from './components/Dashboard/Dashboard';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import Review from './components/Review/Review';
+
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
      <Navbar> </Navbar>
     <Routes>
       <Route path='/' element ={ <Home></Home>}> </Route>
-      <Route path='/review' element={<Review></Review>}> </Route>
-      <Route path='/review' element={<Review> </Review> }></Route>
+     
+      <Route path='/review' element={<Reviews> </Reviews> }></Route>
       <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
       <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/about' element={<About> </About>}></Route>
