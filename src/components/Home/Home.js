@@ -1,9 +1,12 @@
 import React from 'react';
 import shirt from '../../assets/images/tshirt-one'
 import useReviews from '../../hooks/useReviews';
-import Reviews from '../Reviews/Reviews';
+
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
+    
     const[reviews, setReviews] = useReviews();
 
     return (
@@ -20,17 +23,33 @@ const Home = () => {
         </div>
 
         <div>
-            {
-             reviews.map(review => <Reviews
-             key={review._id}
-             review={review}
-             > </Reviews>)
-            }
+          
             <h2 className='flex justify-center text-4xl mt-11'>Customer Review </h2>
-            <button className='flex justify-center mx-auto bg-amber-500 p-3 text-xl text-white mt-48 mb-24 '>See All Reviews </button>
+
+          <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-24 mt-10'>
+          {
+             reviews.slice(0,3).map(review => 
+          
+              <div className='grid gap-5 border-4 m-4 w-[300px]'>
+               
+                <img className='mx-auto w-36 h-36 rounded-full mt-2' src={review.picture} alt="" />
+                <h2 className='text-xl  mx-auto'>{review.name}</h2>
+                <p className='mx-4 text-justify'>{review.comment}</p>
+                <p className='mx-4'>{review.rating}</p>
+              </div>
+            )
+            }
+          </div>
+           
            
 
         </div>
+
+        
+           
+        
+
+         <Link to='/review' className='flex justify-center mx-auto bg-amber-500 p-3 text-xl text-white mt-16 mb-24 '>See All Reviews </Link>
 
         </div>
        
